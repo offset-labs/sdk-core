@@ -1,5 +1,5 @@
 {
-  "name": "@offset/sdk-core",
+  "name": "@offsetcarbon/sdk-core",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -11,7 +11,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/offset-labs/sdk-core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offset-labs/sdk-core.git"
+  },
   "keywords": [
     "offset",
     "ethereum"
@@ -25,7 +28,6 @@
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
-    "@offset/sdk-core": "github:offset-labs/sdk-core",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
