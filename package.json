@@ -1,16 +1,22 @@
 {
-  "name": "@uniswap/sdk-core",
+  "name": "@offset/sdk-core",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "4.0.10",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "⚒️ An SDK for building applications on top of Offset V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk-core.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offset-labs/sdk-core.git"
+  },
   "keywords": [
-    "uniswap",
+    "offset",
     "ethereum"
   ],
   "module": "dist/sdk-core.esm.js",
@@ -40,5 +46,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/offset-labs/sdk-core/issues"
+  },
+  "homepage": "https://github.com/offset-labs/sdk-core#readme",
+  "author": "Offset Labs"
 }
