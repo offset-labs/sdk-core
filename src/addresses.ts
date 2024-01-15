@@ -123,12 +123,12 @@ const ARBITRUM_GOERLI_ADDRESSES: ChainAddresses = {
 
 // arbitrum sepolia v3 addresses
 const ARBITRUM_SEPOLIA_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xF6269495dAe5c3D3032a834897C9b9345965aab8',
-  multicallAddress: '0xAC64bF2d5ab593B828aF8B417E300Cd32AE69DfA',
-  quoterAddress: '0x6a43d142f8C8Baa2D71b29eE34979007eE398Ba9',
-  v3MigratorAddress: '0x29647ABE606b0b1804b2aC265Ad82F3A1024e521',
-  nonfungiblePositionManagerAddress: '0xa78b3e1b83c66C9B359C98f358D591a6FcB5C6C7',
-  tickLensAddress: '0x1Ce1D4fE9d56eA9005a0E56A4f3dDEE07958a017'
+  v3CoreFactoryAddress: '0x03df2f1e2Bb3C8FCD4C938Ed777289BeEa0d45a6',
+  multicallAddress: '0xA79Ba775550DA44958a8F987BDc030Fc4a71870D',
+  quoterAddress: '0x7D5DFBA635dc89B5c3aaEE8A501CD47feaAE88Ea',
+  v3MigratorAddress: '0x7A624AA18399c3Da9aeCb6e720937A9CEA30033F',
+  nonfungiblePositionManagerAddress: '0x85b2b694Cb5E2824b5619A27b434d615F7E11120',
+  tickLensAddress: '0xA82F2aAa6091A8365dC08AAFe872267d8c31a619'
 }
 
 // sepolia v3 addresses

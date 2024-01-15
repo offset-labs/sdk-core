@@ -1141,9 +1141,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@offset/sdk-core@github:offset-labs/sdk-core":
-  "resolved" "git+ssh://git@github.com/offset-labs/sdk-core.git#2b1a02ee4fe49a04e507c6d6461323005fa5f8dd"
-  "version" "4.0.10"
+"@offsetcarbon/sdk-core@^4.0.11":
+  "integrity" "sha512-w2K4dRMjWOIjEmc4ZSHrGFw87jnRdjiG8XM+WTgxjMFtb8f1/CynCpsqyydMFzOafoXuYO8fjx0tEWeD+axC0Q=="
+  "resolved" "https://registry.npmjs.org/@offsetcarbon/sdk-core/-/sdk-core-4.0.11.tgz"
+  "version" "4.0.11"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     "big.js" "^5.2.2"
