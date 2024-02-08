@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "4.0.13",
+  "version": "4.0.14",
   "description": "⚒️ An SDK for building applications on top of Offset V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
